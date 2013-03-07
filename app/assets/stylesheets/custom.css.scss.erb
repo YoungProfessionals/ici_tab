@@ -1,0 +1,36 @@
+@import "bootstrap";
+
+.ipad_frame {
+  height: 622px;
+  width: 490px;
+  background: url(<%= image_path 'ipad-frame.png' %>);
+  background-size: 100%;
+  overflow: auto;
+  .top_container {
+    margin-top: 68px;
+    margin-left: 65px;
+    width: 73%;
+    height: 37%;
+    background: url(<%= image_path 'yp.png' %>);
+    background-size: 70%;
+  }
+  
+  .navigation {
+    margin-left: 65px;
+    width: 73%;
+    height: 5%;
+    overflow: auto;
+    span {
+      overflow: auto;
+      float: left;
+      width: 20%;
+      margin-left: 15px;
+    }
+  }
+  
+  .bottom_container {
+    margin-left: 65px;
+    width: 73%;
+    height: 37%;
+  }
+}
