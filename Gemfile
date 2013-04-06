@@ -4,7 +4,6 @@ gem 'rails', '3.2.11'
 gem 'bootstrap-sass', '2.1'
 gem 'bootstrap-will_paginate', '0.0.6'
 gem "twitter-bootstrap-rails"
-gem 'sqlite3'
 gem 'thor', '>=0.14.4'
 gem 'nifty-generators'
 gem 'jquery-ui-rails'
