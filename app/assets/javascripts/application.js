@@ -12,4 +12,44 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require jquery.ui.all
+//= require twitter/bootstrap
 //= require_tree .
+
+$(document).ready(function() {
+	// Click-Event for Welcome Tab
+	$('#u813-4').click(function() {
+		$.ajax({
+	         type: "GET",
+	         data: ( {value: "welcome"} ),
+	         dataType: 'script'
+		});
+	});
+
+	// Click-Event for Team Tab
+	$('#u822-4').click(function() {
+		$.ajax({
+	         type: "GET",
+	         data: ( {value: "team"} ),
+	         dataType: 'script'
+		});
+	});
+
+	// Click-Event for Partner Tab
+	$('#u1036-4').click(function() {
+		$.ajax({
+	         type: "GET",
+	         data: ( {value: "partner"} ),
+	         dataType: 'script'
+		});
+	});
+
+	// Click-Event for Contact Tab
+	$('#u809-4').click(function() {
+		$.ajax({
+	         type: "GET",
+	         data: ( {value: "contact"} ),
+	         dataType: 'script'
+		});
+	});
+});

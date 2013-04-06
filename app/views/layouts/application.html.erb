@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>FbTab</title>
+ <head>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-</head>
-<body>
-	
-<%= yield %>
+  <meta http-equiv="Content-type" content="text/html;charset=UTF-8"/>
+  <meta name="generator" content="4.1.8.204"/>
+  <title>Homepage</title>
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="css/site_global.css?89652228"/>
+  <link rel="stylesheet" type="text/css" href="css/master_a-musterseite.css?204944337"/>
+  <link rel="stylesheet" type="text/css" href="css/index.css?3770024187" id="pagesheet"/>
+  <!-- Other scripts -->
+  <script type="text/javascript">
+   document.documentElement.className += ' js';
+  </script>
+ </head>
+ <body>
+ 	
+  <%= yield %>
 
-</body>
+ </body>
 </html>
