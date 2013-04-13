@@ -1,39 +1,25 @@
-	  <div class="TabbedPanelsContent gradient clearfix grpelem" id="u798"><!-- group -->
-        <%= form_for @message do |f| %>
-          <% if @message.errors.any? %>
-            <div class="error_messages">
-              <h2>Form is invalid</h2>
-              <ul>
-                <% for message in @message.errors.full_messages %>
-                  <li><%= message %></li>
-                <% end %>
-              </ul>
-            </div>
-          <% end %>
-          <span id="left_part_form">
-              <div class="field">
-                <%= f.label :Firmenname %>
-                <%= f.text_field :company_name %>
-              </div>
-              <div class="field">
-                <%= f.label :Ansprechpartner %>
-                <%= f.text_field :name %>
-              </div>
-              <div class="field">
-                <%= f.label :Emailadresse %>
-                <%= f.text_field :email %>
-              </div>
-              <div class="field">
-                <%= f.label :Telefonnummer %>
-                <%= f.text_field :phone %>
-              </div>
-          </span>
-          <span id= "right_part_form">
-            <div class="field">
-              <%= f.label :Nachricht %>
-              <%= f.text_field :message %>
-            </div>
-          </span>
-          <div class="actions" id="submit"><%= f.submit "Nachricht senden", class: "btn btn-large btn-primary"%></div>
-        <% end %>
-      </div>
+<section id="page-contact">  
+  <%= form_for @message do |f| %>
+    <div class="fieldcontain">
+      <%= f.label :Unternehmen %>
+      <%= f.text_field :company_name %>
+    </div>
+    <div class="fieldcontain">
+      <%= f.label :Ansprechpartner %>
+      <%= f.text_field :name %>
+    </div>
+    <div class="fieldcontain">
+      <%= f.label :Emailadresse %>
+      <%= f.text_field :email %>
+    </div>
+    <div class="fieldcontain">
+      <%= f.label :Telefonnummer %>
+      <%= f.text_field :phone %>
+    </div>
+    <div class="fieldcontain">
+      <%= f.label :Nachricht %>
+      <%= f.text_field :message %>
+    </div>
+    <div class="actions" id="submit"><%= f.submit "Nachricht senden" %></div>
+  <% end %>
+</section>

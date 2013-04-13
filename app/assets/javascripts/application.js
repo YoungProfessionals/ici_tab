@@ -18,7 +18,7 @@
 
 $(document).ready(function() {
 	// Click-Event for Welcome Tab
-	$('#u813-4').click(function() {
+	$('#welcome_tab').click(function() {
 		$.ajax({
 	         type: "GET",
 	         data: ( {value: "welcome"} ),
@@ -27,7 +27,7 @@ $(document).ready(function() {
 	});
 
 	// Click-Event for Team Tab
-	$('#u822-4').click(function() {
+	$('#team_tab').click(function() {
 		$.ajax({
 	         type: "GET",
 	         data: ( {value: "team"} ),
@@ -36,7 +36,7 @@ $(document).ready(function() {
 	});
 
 	// Click-Event for Partner Tab
-	$('#u1036-4').click(function() {
+	$('#partner_tab').click(function() {
 		$.ajax({
 	         type: "GET",
 	         data: ( {value: "partner"} ),
@@ -45,7 +45,7 @@ $(document).ready(function() {
 	});
 
 	// Click-Event for Contact Tab
-	$('#u809-4').click(function() {
+	$('#contact_tab').click(function() {
 		$.ajax({
 	         type: "GET",
 	         data: ( {value: "contact"} ),
