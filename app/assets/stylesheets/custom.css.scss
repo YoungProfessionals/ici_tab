@@ -178,6 +178,10 @@ a:hover, a:active, a:focus {
 	list-style: none;
 }
 
+#styled_list {
+	list-style-type: circle;
+}
+
 .polaroid {
 	border: 3px solid #fff;
 	box-shadow: 0 1px 4px rgba(0,0,0,0.4);
