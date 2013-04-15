@@ -41,7 +41,7 @@ table {border-collapse: collapse;border-spacing: 0;}
 a:link,a:visited {color: #013974; text-decoration: none;}
 a:hover, a:active, a:focus {text-decoration: underline;}
 .text-center {text-align: center;}
-ul.unstyled {list-style: none;}
+.unstyled {list-style: none;}
 .polaroid {border: 3px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,0.4);}
 
 /* wrapper */
@@ -87,6 +87,7 @@ header img {margin-bottom: 10px;}
 #page-contact form textarea:hover {background-color: #fff; border: 1px solid #000;}
 #page-contact form fieldset {margin-bottom: 20px;}
 #page-contact form .fieldcontain {margin-bottom: 10px; overflow: hidden;}
+#message_message {height: 50px;}
 #page-contact form fieldset label {width: 100px; float: left; margin-right: 30px;}
 #page-contact form #submit {width: 230px; height: 30px; background-color: #013974; border: 1px solid #000; color: #fff;}
 #page-contact form #submit:hover,
