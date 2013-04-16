@@ -1,5 +1,5 @@
 class MessageMailer < ActionMailer::Base
-  default :from => "notification@example.com"
+  default :from => "mauritz.lukas@gmail.com"
   
   def contact_email(message)
     @message = message
